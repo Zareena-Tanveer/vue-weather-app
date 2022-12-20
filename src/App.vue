@@ -57,10 +57,11 @@
     methods: {
       fetchWeather(){
         if (this.query !=='') {
+
           fetch(`${this.url_base}weather?q=${this.query}&units=metric&appid=${this.api_key}`)
             .then(res => res.json())
             .then(this.setResults)
-            .catch(err => console.error(err));
+            .catch(err => alert('Invalid Search.. City not found'));
         }
         else{
           alert('Please Enter City Name...');
