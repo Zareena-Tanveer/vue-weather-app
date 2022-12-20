@@ -33,3 +33,6 @@ npm run build
 ```sh
 npm run lint
 ```
+![image](https://user-images.githubusercontent.com/65158724/208581593-897f3ff7-1cc3-45be-9f1f-fb1d9f8c3b14.png)
+![image](https://user-images.githubusercontent.com/65158724/208581650-dfc64132-e3fc-4513-a72f-61efcda054b5.png)
+
